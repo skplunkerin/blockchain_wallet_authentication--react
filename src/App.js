@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -7,7 +7,16 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          TODO: update app by following{" "}
+          <a
+            className="App-link"
+            href="https://youtu.be/UP6MfkU3Bkg"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Moralis tutorial
+          </a>
+          .
         </p>
         <a
           className="App-link"

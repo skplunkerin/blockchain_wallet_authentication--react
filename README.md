@@ -33,7 +33,8 @@
 
 2. Test your project:
 
-   TODO
+   - Go to `http://localhost:3000`
+   - TODO
 
 ## Available Scripts
 
