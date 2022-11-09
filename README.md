@@ -12,6 +12,7 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [Vulnerabilities:](#vulnerabilities)
 - [Setup project:](#setup-project)
 - [Available Scripts](#available-scripts)
   - [`npm start`](#npm-start)
@@ -21,6 +22,22 @@
 - [Learn More](#learn-more)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Vulnerabilities:
+
+Use `npm audit --production` instead of `npm audit`, see why below:
+
+Using **Create React App** creates a project that has severe vulnerabilities due
+to the `react-scripts` package; Running `npm audit fix --force` doesn't fix the
+problem _(it downgrades the `react-scripts` package (for some reason), and_
+_creates even more vulnerabilities)_.
+
+The only fix for this is to move the `react-scripts` package to the
+`devDependencies`, and auditing via `npm audit --production`. See [this SO](https://stackoverflow.com/q/67693423/1180523)
+and [this Github issue](https://github.com/facebook/create-react-app/issues/11012);
+and [this SO](https://stackoverflow.com/a/69576030/1180523) and
+[this Github issue](https://github.com/facebook/create-react-app/issues/11174)
+for more info on this problem.
 
 ## Setup project:
 
