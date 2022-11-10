@@ -6,6 +6,19 @@
 >
 > - _Created by following a Moralis Web3 tutorial [found here](https://youtu.be/UP6MfkU3Bkg)._
 
+# 🥶 FROZEN
+
+This tutorial uses `react-moralis`, which only supports the Moralis API v1,
+which is deprecated. Unless you have an old Moralis account with an active
+App/Server, this tutorial cannot be completed using `react-moralis`:
+
+> "you cant use v2 with react moralis"
+> [- Iulian#0380](https://discord.com/channels/819584798443569182/1035004761788915792/1035957486852780223)\
+> _Found on Moralis Discord server, searching for "MoralisProvider serverUrl",_\
+> _in [this Support question](https://discord.com/channels/819584798443569182/1035004761788915792)._\
+
+---
+
 ## Table of Contents
 
 <!-- To use: `npm install -g doctoc && doctoc README.md` -->
